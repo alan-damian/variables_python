@@ -45,5 +45,23 @@ Alumno:
   en esas variables
 '''
 
+numero_1 = float(input('ingresar primer numero:'))
+numero_2 = float(input('ingresar segundo numero:'))
+
+suma = numero_1 + numero_2
+resta = numero_1 - numero_2
+multiplicacion = numero_1 * numero_2
+division = numero_1 / numero_2
+potencia = numero_1 ** numero_2
+
+
+print('suma:', suma)
+print('resta:', resta)
+print('multiplicacion:', multiplicacion)
+print('division:', division)
+print('potencia:', potencia)
+
+
+
 print('¡Nuestra primera calculadora!')
 # Empezar aquí la resolución del ejercicio

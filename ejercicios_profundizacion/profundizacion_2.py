@@ -53,5 +53,14 @@ Alumno:
 
 '''
 
+
 print('Sistema de ingreso de datos')
 # Empezar aquí la resolución del ejercicio
+nombre_completo = str(input('ingrese su nombre'))
+identificacion = str(input('ingrese su DNI'))
+
+edad = int(input('ingrese su edad'))
+altura = float(input('ingrese su altura'))
+
+print('nombre: ', nombre_completo, 'DNI: ', identificacion)
+print('edad: ', edad, 'altura: ', altura)
